@@ -63,4 +63,8 @@ Concernant l'API et les fonctionnalités attendues, il manque pas mal de choses,
 La connexion par un utilisateur fonctionne tous comme la plupart des routes. Mais pas mal de spécifités techniques sont manquantes.  
 J'ai essayé d'avancer sur la plupart des consignes mais il manque la concrétisation.  
 
-
+Seule la requete de consultation des projets ne nécessite pas de connexion  
+La requete de consultation des utilisateur est quand à elle accessible aux personnes connecté  
+Pour le reste des requetes, un role d'admin est necessaire. Il peut ainsi consulter, créer, modifier, remplacer ou supprimer un projet.  
+On utilise les query pour filtrer ou trier les projets. 
+On utilise égallement les query pour limiter l'affichage à 3 projets sur la page principale.  
