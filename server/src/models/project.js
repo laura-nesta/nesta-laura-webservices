@@ -10,6 +10,6 @@ const projectSchema = new Schema({
     { timestamps: true }
 );
 
-const creationModel = mongoose.model('project',projectSchema)
+const projectModel = mongoose.model('project',projectSchema)
 
-export default creationModel
+export default projectModel
