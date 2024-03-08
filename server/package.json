@@ -1,0 +1,32 @@
+{
+  "name": "nesta-laura-webservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "imports": {
+    "#src/*": "./src/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.2",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
